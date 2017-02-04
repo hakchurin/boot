@@ -11,17 +11,16 @@ body {
 #zip {
   text-decoration: none;
   background-color: white;
-  border-top: 2px solid black;
-  border-right: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
   width: 12rem;
   width: 26rem;
   height: 2rem; }
 
 section {
-  color: blue;
-  border: 3px solid orange;
+  border: 3px solid;
   width: 641px;
   padding: 25px;
   margin-right: 14.5rem;
@@ -29,12 +28,18 @@ section {
   margin-top: 25px;
   border-radius: 5px;
   font-family: HelveticaRoman; }
-  section .form2 {
-    margin-top: 1rem; }
-  section .form3 {
+  section .form2, section .form3, section .form4 {
     margin-top: 1.3rem; }
-  section .form4 {
-    margin-top: 1.4rem; }
+  section .form1, section .form2, section .form3, section .form4 {
+    margin-left: 1rem; }
+  section p.info {
+    margin-top: 1.4rem;
+    line-height: 1.6rem;
+    margin-left: 1rem; }
+  section .checkYes {
+    margin-top: 1rem; }
+  section .checkNo {
+    margin-top: 1rem; }
 
 form {
   margin-top: 1rem; }
@@ -42,20 +47,23 @@ form {
 .container #checkYes {
   cursor: pointer; }
 .container button#submitBtn {
+  margin-top: 2.6rem;
+  margin-left: 0.9rem;
   background-color: #b82d2d;
   border: none;
   color: #fff;
-  padding: 15px 32px;
+  width: 25.7rem;
+  height: 2.7rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1.5rem;
   cursor: pointer; }
 .container h2 {
   font-size: 2rem;
   line-height: 44px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-left: 1rem; }
 
 article {
   margin-top: 5rem;
@@ -68,8 +76,11 @@ article {
     border-left-style: none;
     width: 23rem; }
   article .articleInfo {
-    width: 60%;
-    font-size: 1rem; }
+    width: 81%;
+    font-size: 1.19rem;
+    font-family: HelveticaRoman;
+    margin-top: 1.5rem;
+    line-height: 23px; }
   article .articleHeader h2 {
     margin-left: 2.6rem;
     font-size: 1.6rem; }
