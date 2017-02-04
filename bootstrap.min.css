@@ -1,0 +1,87 @@
+@font-face {
+  font-family: HelveticaRoman;
+  src: url("assets/HelveticaRoman.ttf"); }
+body {
+  display: inline-flex;
+  width: 100%; }
+
+#email,
+#firstName,
+#lastName,
+#zip {
+  text-decoration: none;
+  background-color: white;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 12rem;
+  width: 26rem;
+  height: 2rem; }
+
+section {
+  color: blue;
+  border: 3px solid orange;
+  width: 641px;
+  padding: 25px;
+  margin-right: 14.5rem;
+  height: 646px;
+  margin-top: 25px;
+  border-radius: 5px;
+  font-family: HelveticaRoman; }
+  section .form2 {
+    margin-top: 1rem; }
+  section .form3 {
+    margin-top: 1.3rem; }
+  section .form4 {
+    margin-top: 1.4rem; }
+
+form {
+  margin-top: 1rem; }
+
+.container #checkYes {
+  cursor: pointer; }
+.container button#submitBtn {
+  background-color: #b82d2d;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+.container h2 {
+  font-size: 2rem;
+  line-height: 44px;
+  margin: 0 auto; }
+
+article {
+  margin-top: 5rem;
+  width: 50%;
+  margin-left: 13.5rem; }
+  article .line {
+    border: 2px solid pink;
+    border-right-style: none;
+    border-top-style: none;
+    border-left-style: none;
+    width: 23rem; }
+  article .articleInfo {
+    width: 60%;
+    font-size: 1rem; }
+  article .articleHeader h2 {
+    margin-left: 2.6rem;
+    font-size: 1.6rem; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 70px;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  left: 0; }
+
+/*# sourceMappingURL=bootstrap.min.css.map */

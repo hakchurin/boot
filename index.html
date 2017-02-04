@@ -9,7 +9,7 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
 
 
 </head>
@@ -53,18 +53,29 @@
             <h2> Let's get started with some basic voter information: </h2>
 
             <form>
+
+                <div class="form1">
                 <label for="firstName">First Name:</label><br>
                 <input type="firstName" class="form-control" id="firstName"><br>
+              </div>
 
+                <div class="form2">
                 <label for="lastName">Last Name:</label><br>
                 <input type="lastName" class="form-control" id="lastName"><br>
+              </div>
 
+              <div class="form3">
                 <label for="email"> Email:</label><br>
-                <input type="email" class="form-control" id="emails"><br>
+                <input type="email" class="form-control" id="email"><br>
+              </div>
 
+              <div class="form4">
                 <label for="zip"> Zip:</label><br>
                 <input type="zip" class="form-control" id="zip">
+              </div>
             </form>
+
+
 
 
             <p class="info"> Do you have a valid driver's license or identification card issued by Nevada DMV? </p>
@@ -72,7 +83,6 @@
             <input type="checkbox" id="checkYes" name="checkYes" value="yes"> I HAVE A CURRENT NV STATE IDENTIFICATION CARD OR DRIVER'S LICENSE.<br>
             <input type="checkbox" name="checkNo" value="no"> I DO NOT HAVE A CURRENT NV STATE IDENTIFICATION CARD OR DRIVER'S LICENSE.<br>
             <button type="button" id="submitBtn" class="btn">Next Step  </button>
-            <label><input type="checkbox" value="">Option 1</label>
         </div>
     </section>
 
