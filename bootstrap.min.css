@@ -3,7 +3,8 @@
   src: url("assets/HelveticaRoman.ttf"); }
 body {
   display: inline-flex;
-  width: 100%; }
+  width: 100%;
+  background-color: mediumpurple; }
 
 #email,
 #firstName,
@@ -28,9 +29,14 @@ section {
   margin-top: 25px;
   border-radius: 5px;
   font-family: HelveticaRoman; }
-  section .form2, section .form3, section .form4 {
+  section .form2,
+  section .form3,
+  section .form4 {
     margin-top: 1.3rem; }
-  section .form1, section .form2, section .form3, section .form4 {
+  section .form1,
+  section .form2,
+  section .form3,
+  section .form4 {
     margin-left: 1rem; }
   section p.info {
     margin-top: 1.4rem;
@@ -40,6 +46,26 @@ section {
     margin-top: 1rem; }
   section .checkNo {
     margin-top: 1rem; }
+  section .check1, section .check2 {
+    display: flex; }
+  section .noId, section .yesId {
+    margin-left: 0.5rem;
+    font-size: 1.05rem;
+    margin-top: 0.5rem;
+    line-height: 20px; }
+  section .box {
+    border: 2px solid pink;
+    width: 45px;
+    margin-top: 0.3rem;
+    height: 27px;
+    margin-left: 0.9rem; }
+  section #box2 {
+    border: 2px solid pink;
+    width: 45px;
+    margin-top: 0.7rem;
+    height: 27px;
+    margin-left: 0.9rem;
+    cursor: pointer; }
 
 form {
   margin-top: 1rem; }
@@ -47,7 +73,7 @@ form {
 .container #checkYes {
   cursor: pointer; }
 .container button#submitBtn {
-  margin-top: 2.6rem;
+  margin-top: 0.6rem;
   margin-left: 0.9rem;
   background-color: #b82d2d;
   border: none;
@@ -62,11 +88,9 @@ form {
 .container h2 {
   font-size: 2rem;
   line-height: 44px;
-  margin: 0 auto;
-  margin-left: 1rem; }
+  margin: 0 auto 0 1rem; }
 
 article {
-  margin-top: 5rem;
   width: 50%;
   margin-left: 13.5rem; }
   article .line {
@@ -74,16 +98,25 @@ article {
     border-right-style: none;
     border-top-style: none;
     border-left-style: none;
-    width: 23rem; }
+    width: 24.9rem;
+    margin-top: 0.6rem; }
+  article img {
+    width: 65%;
+    margin-top: 1rem;
+    width: 51%;
+    margin-left: 4.5rem; }
   article .articleInfo {
     width: 81%;
     font-size: 1.19rem;
     font-family: HelveticaRoman;
     margin-top: 1.5rem;
     line-height: 23px; }
+  article .articleHeader h1 {
+    background-image: url("assets/vote.png"); }
   article .articleHeader h2 {
-    margin-left: 2.6rem;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    margin: 0 auto 0 3rem;
+    font-family: HelveticaRoman; }
 
 footer {
   position: fixed;
@@ -94,5 +127,18 @@ footer {
   text-align: center;
   font-size: 1.2rem;
   left: 0; }
+
+@media screen and (max-width: 400px) {
+  body {
+    display: block; }
+
+  article {
+    margin: 0 auto; }
+
+  .articleHeader {
+    margin: 0; }
+
+  section {
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
