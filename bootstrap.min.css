@@ -2,29 +2,17 @@
   font-family: HelveticaRoman;
   src: url("assets/HelveticaRoman.ttf"); }
 body {
+  background-image: url("assets/voteNevada.png");
   display: inline-flex;
   width: 100%;
   background-color: mediumpurple; }
 
-#email,
-#firstName,
-#lastName,
-#zip {
-  text-decoration: none;
-  background-color: transparent;
-  border-top: 2px solid;
-  border-right: 2px solid;
-  border-left: 2px solid;
-  border-bottom: 2px solid;
-  width: 12rem;
-  width: 25.5rem;
-  height: 2rem; }
-
 article {
   width: 50%;
-  margin-left: 13.5rem; }
+  margin-left: 13.5rem;
+  color: #FFFFFF; }
   article .line {
-    border: 2px solid pink;
+    border: 2px solid #FFFFFF;
     border-right-style: none;
     border-top-style: none;
     border-left-style: none;
@@ -34,6 +22,8 @@ article {
     margin-top: 0.8rem;
     width: 52.5%;
     margin-left: 3.9rem; }
+  article h2 {
+    color: #FFFFFF; }
   article .articleInfo {
     width: 84%;
     font-size: 1.19rem;
@@ -44,8 +34,6 @@ article {
     article .articleInfo p.p3,
     article .articleInfo p.p4 {
       margin-top: 1.5rem; }
-  article .articleHeader h1 {
-    background-image: url("assets/vote.png"); }
   article .articleHeader h2 {
     margin: 0 auto 0 2.5rem;
     font-size: 1.75rem;
@@ -59,62 +47,79 @@ section {
   margin-right: 14.6rem;
   margin-top: 25px;
   border-radius: 5px;
-  font-family: HelveticaRoman; }
+  font-family: HelveticaRoman;
+  color: #FFFFFF; }
+  section h2 {
+    font-size: 2rem;
+    line-height: 44px;
+    margin: 0 auto 0 1rem; }
   section label {
     font-size: 1.15rem; }
   section form {
     margin-top: 1rem;
     margin-right: 1rem; }
-  section .form2,
-  section .form3,
-  section .form4 {
-    margin-top: 0.9rem; }
-  section .form1,
-  section .form2,
-  section .form3,
-  section .form4 {
-    margin-left: 1rem; }
-  section .form4 {
-    margin-top: 0.95rem; }
+    section form .form2,
+    section form .form3 {
+      margin-top: 0.9rem; }
+    section form .form1,
+    section form .form2,
+    section form .form3,
+    section form .form4 {
+      margin-left: 1rem;
+      color: #FFFFFF; }
+    section form .form4 {
+      margin-top: 0.95rem; }
+    section form #email,
+    section form #firstName,
+    section form #lastName,
+    section form #zip {
+      text-decoration: none;
+      background-color: transparent;
+      border-top: 2px solid;
+      border-right: 2px solid;
+      border-left: 2px solid;
+      border-bottom: 2px solid;
+      width: 12rem;
+      width: 25.5rem;
+      height: 2rem;
+      color: #FFFFFF; }
   section p.info {
     margin-top: 1.8rem;
     line-height: 1.6rem;
     margin-left: 1rem;
     font-size: 1.11rem; }
-  section .checkYes {
-    margin-top: 1rem;
-    font-family: HelveticaRoman; }
-  section .checkNo {
-    margin-top: 1rem;
-    font-family: HelveticaRoman; }
   section .check1,
   section .check2 {
     display: flex; }
-  section .yesId {
-    margin-left: 1rem;
-    font-size: 1.05rem;
-    margin-top: 0.2rem;
-    line-height: 23px; }
-  section .noId {
-    margin-left: 1rem;
-    font-size: 1.05rem;
-    margin-top: 0;
-    line-height: 23px; }
-  section .box1 {
-    border: 2px solid black;
-    width: 41px;
-    height: 27px;
-    margin-left: 1rem;
-    cursor: pointer;
-    margin-top: 0.25rem; }
-  section .box2 {
-    border: 2px solid black;
-    width: 45px;
-    height: 27px;
-    margin-left: 1rem;
-    cursor: pointer; }
-  section #checkYes {
-    cursor: pointer; }
+    section .check1 .box1,
+    section .check2 .box1 {
+      border: 2px solid #FFFFFF;
+      width: 41px;
+      height: 27px;
+      margin-left: 1rem;
+      cursor: pointer;
+      margin-top: 0.25rem; }
+    section .check1 .yesId,
+    section .check2 .yesId {
+      margin-left: 1rem;
+      font-size: 1.05rem;
+      margin-top: 0.2rem;
+      line-height: 23px; }
+    section .check1 .box2,
+    section .check2 .box2 {
+      border: 2px solid #FFFFFF;
+      width: 45px;
+      height: 27px;
+      margin-left: 1rem;
+      cursor: pointer; }
+    section .check1 .noId,
+    section .check2 .noId {
+      margin-left: 1rem;
+      font-size: 1.05rem;
+      margin-top: 0;
+      line-height: 23px; }
+  section .bottomInfo {
+    display: none; }
   section button#submitBtn {
     margin-top: 0.2rem;
     margin-left: 0.9rem;
@@ -128,12 +133,6 @@ section {
     display: inline-block;
     font-size: 1.5rem;
     cursor: pointer; }
-  section h2 {
-    font-size: 2rem;
-    line-height: 44px;
-    margin: 0 auto 0 1rem; }
-  section .bottomInfo {
-    display: none; }
 
 footer p.fullFoot {
   position: fixed;
@@ -143,7 +142,8 @@ footer p.fullFoot {
   text-align: center;
   font-size: 1.08rem;
   left: 0;
-  font-family: HelveticaRoman; }
+  font-family: HelveticaRoman;
+  color: #FFFFFF; }
 footer p.mobileFoot {
   display: none; }
 
@@ -199,51 +199,51 @@ footer p.mobileFoot {
       padding: 0; }
     section label {
       font-size: 0.8rem; }
-    section #email,
-    section #firstName,
-    section #lastName,
-    section #zip {
-      width: 280px;
-      height: 22.5px; }
     section form {
       margin-top: 0.8rem;
       margin-left: 0.7rem; }
+      section form #email,
+      section form #firstName,
+      section form #lastName,
+      section form #zip {
+        width: 280px;
+        height: 17.5px; }
       section form .form1,
       section form .form2,
       section form .form3,
       section form .form4 {
-        margin-top: 0.7rem; }
+        margin-top: 1rem; }
     section p.info {
-      margin-top: 4.8rem;
+      margin-top: 1rem;
       line-height: 1.3rem;
       margin-left: 1rem;
       font-size: 0.74rem;
       width: 87%;
       margin: 14px 27px auto; }
-    section p.noId {
-      font-size: 0.7rem;
-      margin-left: 0.5rem;
-      line-height: 19px; }
-    section p.yesId {
-      font-size: 0.7rem;
-      margin-left: 0.5rem;
-      line-height: 19px;
-      margin-top: 0.8rem;
-      width: 80%; }
-    section .box1 {
-      border: 2px solid black;
+    section .check1 .box1 {
+      border: 2px solid #FFFFFF;
       width: 21px;
       height: 20px;
       margin-left: 1.75rem;
       cursor: pointer;
       margin-top: 1rem; }
-    section .box2 {
-      border: 2px solid black;
+    section .check1 .yesId {
+      font-size: 0.7rem;
+      margin-left: 0.5rem;
+      line-height: 19px;
+      margin-top: 0.9rem;
+      width: 80%; }
+    section .check2 .box2 {
+      border: 2px solid #FFFFFF;
       width: 26px;
       height: 20px;
       margin-left: 1.75rem;
       cursor: pointer;
       margin-top: 0.2rem; }
+    section .check2 .noId {
+      font-size: 0.7rem;
+      margin-left: 0.5rem;
+      line-height: 19px; }
     section .bottomInfo {
       display: flex;
       width: 100%; }
@@ -255,10 +255,8 @@ footer p.mobileFoot {
     section button#submitBtn {
       width: 284px;
       height: 34px;
-      margin: 0;
-      margin-top: .97rem;
-      margin-left: 1.75rem;
-      font-size: .95rem; }
+      margin: 0.97rem 0 0 1.75rem;
+      font-size: 0.95rem; }
 
   footer p.fullFoot {
     display: none; }
@@ -267,12 +265,11 @@ footer p.mobileFoot {
     position: fixed;
     left: 70px;
     width: 100%;
-    font-size: .85rem;
+    font-size: 0.85rem;
     left: 0;
     font-family: HelveticaRoman;
-    margin: 0 auto;
-    margin-left: 1.8rem;
-    margin-top: 1.3rem;
-    line-height: 17px; } }
+    margin: 1.3rem auto 0 1.8rem;
+    line-height: 17px;
+    color: #FFFFFF; } }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
