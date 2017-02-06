@@ -132,8 +132,10 @@ section {
     font-size: 2rem;
     line-height: 44px;
     margin: 0 auto 0 1rem; }
+  section .bottomInfo {
+    display: none; }
 
-footer {
+footer p.fullFoot {
   position: fixed;
   top: 46.5rem;
   left: 70px;
@@ -142,6 +144,8 @@ footer {
   font-size: 1.08rem;
   left: 0;
   font-family: HelveticaRoman; }
+footer p.mobileFoot {
+  display: none; }
 
 @media screen and (max-width: 400px) {
   body {
@@ -183,7 +187,7 @@ footer {
   section {
     margin-top: 1rem;
     width: 340px;
-    height: 532px;
+    height: 582px;
     margin-left: 1.2rem;
     padding: 0; }
     section h2 {
@@ -239,6 +243,36 @@ footer {
       height: 20px;
       margin-left: 1.75rem;
       cursor: pointer;
-      margin-top: 0.2rem; } }
+      margin-top: 0.2rem; }
+    section .bottomInfo {
+      display: flex;
+      width: 100%; }
+      section .bottomInfo p {
+        margin: 3px auto auto 27px;
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+        width: 85%; }
+    section button#submitBtn {
+      width: 284px;
+      height: 34px;
+      margin: 0;
+      margin-top: .97rem;
+      margin-left: 1.75rem;
+      font-size: .95rem; }
+
+  footer p.fullFoot {
+    display: none; }
+  footer p.mobileFoot {
+    display: flex;
+    position: fixed;
+    left: 70px;
+    width: 100%;
+    font-size: .85rem;
+    left: 0;
+    font-family: HelveticaRoman;
+    margin: 0 auto;
+    margin-left: 1.8rem;
+    margin-top: 1.3rem;
+    line-height: 17px; } }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
