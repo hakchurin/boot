@@ -6,9 +6,6 @@ body {
   width: 100%;
   background-color: mediumpurple; }
 
-label {
-  font-size: 1.15rem; }
-
 #email,
 #firstName,
 #lastName,
@@ -23,6 +20,38 @@ label {
   width: 25.5rem;
   height: 2rem; }
 
+article {
+  width: 50%;
+  margin-left: 13.5rem; }
+  article .line {
+    border: 2px solid pink;
+    border-right-style: none;
+    border-top-style: none;
+    border-left-style: none;
+    width: 24.9rem;
+    margin-top: 0.6rem; }
+  article img {
+    margin-top: 0.8rem;
+    width: 41%;
+    margin-left: 3.9rem; }
+  article .articleInfo {
+    width: 65%;
+    font-size: 1.19rem;
+    font-family: HelveticaRoman;
+    margin-top: 1.35rem;
+    line-height: 23px; }
+    article .articleInfo p.p2,
+    article .articleInfo p.p3,
+    article .articleInfo p.p4 {
+      margin-top: 1.5rem; }
+  article .articleHeader h1 {
+    background-image: url("assets/vote.png"); }
+  article .articleHeader h2 {
+    margin: 0 auto;
+    margin-left: 2.5rem;
+    font-size: 1.75rem;
+    font-family: HelveticaRoman; }
+
 section {
   border: 3px solid;
   width: 450px;
@@ -32,6 +61,8 @@ section {
   margin-top: 25px;
   border-radius: 5px;
   font-family: HelveticaRoman; }
+  section label {
+    font-size: 1.15rem; }
   section .form2,
   section .form3,
   section .form4 {
@@ -102,37 +133,6 @@ section {
     font-size: 2rem;
     line-height: 44px;
     margin: 0 auto 0 1rem; }
-
-article {
-  width: 50%;
-  margin-left: 13.5rem; }
-  article .line {
-    border: 2px solid pink;
-    border-right-style: none;
-    border-top-style: none;
-    border-left-style: none;
-    width: 24.9rem;
-    margin-top: 0.6rem; }
-  article img {
-    height: 60%;
-    margin-top: 0.8rem;
-    width: 52%;
-    margin-left: 4.5rem; }
-  article .articleInfo {
-    width: 80%;
-    font-size: 1.19rem;
-    font-family: HelveticaRoman;
-    margin-top: 1.35rem;
-    line-height: 23px; }
-    article .articleInfo p.p2,
-    article .articleInfo p.p3,
-    article .articleInfo p.p4 {
-      margin-top: 1.5rem; }
-  article .articleHeader h1 {
-    background-image: url("assets/vote.png"); }
-  article .articleHeader h2 {
-    font-size: 1.75rem;
-    font-family: HelveticaRoman; }
 
 footer {
   position: fixed;
