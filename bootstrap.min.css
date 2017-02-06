@@ -17,7 +17,7 @@ body {
   border-left: 2px solid;
   border-bottom: 2px solid;
   width: 12rem;
-  width: 26rem;
+  width: 25.5rem;
   height: 2rem; }
 
 section {
@@ -32,7 +32,7 @@ section {
   section .form2,
   section .form3,
   section .form4 {
-    margin-top: 1.3rem; }
+    margin-top: 1.2rem; }
   section .form1,
   section .form2,
   section .form3,
@@ -67,7 +67,8 @@ section {
     margin-left: 0.9rem;
     cursor: pointer; }
   section form {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    margin-right: .7rem; }
   section .container #checkYes {
     cursor: pointer; }
   section .container button#submitBtn {
