@@ -32,10 +32,10 @@ article {
     margin-top: 0.6rem; }
   article img {
     margin-top: 0.8rem;
-    width: 41%;
+    width: 52.5%;
     margin-left: 3.9rem; }
   article .articleInfo {
-    width: 65%;
+    width: 84%;
     font-size: 1.19rem;
     font-family: HelveticaRoman;
     margin-top: 1.35rem;
@@ -62,6 +62,9 @@ section {
   font-family: HelveticaRoman; }
   section label {
     font-size: 1.15rem; }
+  section form {
+    margin-top: 1rem;
+    margin-right: 1rem; }
   section .form2,
   section .form3,
   section .form4 {
@@ -110,9 +113,6 @@ section {
     height: 27px;
     margin-left: 1rem;
     cursor: pointer; }
-  section form {
-    margin-top: 1rem;
-    margin-right: 0.7rem; }
   section #checkYes {
     cursor: pointer; }
   section button#submitBtn {

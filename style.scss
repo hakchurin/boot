@@ -40,13 +40,13 @@ article {
     }
 
     img {
-        margin-top: 0.8rem;
-        width: 41%;
-        margin-left: 3.9rem;
+      margin-top: 0.8rem;
+width: 52.5%;
+margin-left: 3.9rem;
     }
 
     .articleInfo {
-        width: 65%;
+        width: 84%;
         font-size: 1.19rem;
         font-family: $font-stack;
         margin-top: 1.35rem;
@@ -82,6 +82,11 @@ section {
 
     label {
         font-size: 1.15rem;
+    }
+
+    form{
+      margin-top: 1rem;
+margin-right: 1rem;
     }
 
     .form2,
@@ -155,10 +160,6 @@ section {
         cursor: pointer;
     }
 
-    form {
-        margin-top: 1rem;
-        margin-right: 0.7rem;
-    }
 
     #checkYes {
         cursor: pointer;
