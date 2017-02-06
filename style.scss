@@ -11,12 +11,16 @@ body {
     background-color: mediumpurple;
 }
 
+label{
+      font-size: 1.15rem;
+}
+
 #email,
 #firstName,
 #lastName,
 #zip {
     text-decoration: none;
-    background-color: white;
+    background-color: transparent;
     border-top: 2px solid;
     border-right: 2px solid;
     border-left: 2px solid;
@@ -39,7 +43,7 @@ section {
     .form2,
     .form3,
     .form4 {
-        margin-top: 1.2rem;
+        margin-top: .9rem;
     }
 
     .form1,
@@ -49,45 +53,63 @@ section {
         margin-left: 1rem;
     }
 
+    .form4{
+      margin-top: .95rem;
+
+    }
+
     p.info {
-        margin-top: 1.4rem;
+        margin-top: 1.8rem;
         line-height: 1.6rem;
         margin-left: 1rem;
+        font-size: 1.11rem;
     }
 
     .checkYes {
         margin-top: 1rem;
+      font-family: $font-stack;
     }
 
     .checkNo {
         margin-top: 1rem;
+        font-family: $font-stack;
+
     }
 
     .check1, .check2 {
         display: flex;
     }
 
-    .noId, .yesId {
-        margin-left: 0.5rem;
-        font-size: 1.05rem;
-        margin-top: 0.5rem;
-        line-height: 20px;
+     .yesId {
+      margin-left: 1rem;
+font-size: 1.05rem;
+margin-top: 0.2rem;
+line-height: 23px;
     }
 
-    .box {
-        border: 2px solid pink;
-        width: 45px;
-        margin-top: 0.3rem;
-        height: 27px;
-        margin-left: 0.9rem;
+
+    .noId{
+      margin-left: 1rem;
+font-size: 1.05rem;
+margin-top: 0rem;
+line-height: 23px;
     }
 
-    #box2 {
-        border: 2px solid pink;
+    .box1 {
+      border: 2px solid black;
+width: 41px;
+height: 27px;
+margin-left: 1rem;
+cursor: pointer;
+margin-top: 0.25rem;
+    }
+
+    .box2 {
+        border: 2px solid black;
         width: 45px;
-        margin-top: 0.7rem;
+        // margin-top: 0.5rem;
         height: 27px;
-        margin-left: 0.9rem;
+        margin-left: 1rem;
         cursor: pointer;
     }
 
@@ -103,18 +125,18 @@ section {
         }
 
         button#submitBtn {
-            margin-top: 0.6rem;
-            margin-left: 0.9rem;
-            background-color: #b82d2d;
-            border: none;
-            color: #fff;
-            width: 25.7rem;
-            height: 2.7rem;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 1.5rem;
-            cursor: pointer;
+          margin-top: 0.2rem;
+margin-left: 0.9rem;
+background-color: #b82d2d;
+border: none;
+color: #fff;
+width: 25.7rem;
+height: 2.7rem;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 1.5rem;
+cursor: pointer;
         }
 
         h2 {
@@ -168,13 +190,15 @@ article {
 
 footer {
     position: fixed;
-    bottom: 0;
+    top: 46.5rem;
     left: 70px;
     height: 70px;
     width: 100%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     left: 0;
+    font-family: $font-stack;
+
 }
 
 
