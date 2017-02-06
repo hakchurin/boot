@@ -35,14 +35,14 @@ section {
   section .form2,
   section .form3,
   section .form4 {
-    margin-top: .9rem; }
+    margin-top: 0.9rem; }
   section .form1,
   section .form2,
   section .form3,
   section .form4 {
     margin-left: 1rem; }
   section .form4 {
-    margin-top: .95rem; }
+    margin-top: 0.95rem; }
   section p.info {
     margin-top: 1.8rem;
     line-height: 1.6rem;
@@ -54,7 +54,8 @@ section {
   section .checkNo {
     margin-top: 1rem;
     font-family: HelveticaRoman; }
-  section .check1, section .check2 {
+  section .check1,
+  section .check2 {
     display: flex; }
   section .yesId {
     margin-left: 1rem;
@@ -64,7 +65,7 @@ section {
   section .noId {
     margin-left: 1rem;
     font-size: 1.05rem;
-    margin-top: 0rem;
+    margin-top: 0;
     line-height: 23px; }
   section .box1 {
     border: 2px solid black;
@@ -81,7 +82,7 @@ section {
     cursor: pointer; }
   section form {
     margin-top: 1rem;
-    margin-right: .7rem; }
+    margin-right: 0.7rem; }
   section .container #checkYes {
     cursor: pointer; }
   section .container button#submitBtn {
@@ -114,30 +115,32 @@ article {
     margin-top: 0.6rem; }
   article img {
     height: 60%;
-    margin-top: 1rem;
-    width: 35%;
+    margin-top: 0.8rem;
+    width: 52%;
     margin-left: 4.5rem; }
   article .articleInfo {
     width: 80%;
     font-size: 1.19rem;
     font-family: HelveticaRoman;
-    margin-top: 4.5rem;
+    margin-top: 1.35rem;
     line-height: 23px; }
+    article .articleInfo p.p2,
+    article .articleInfo p.p3,
+    article .articleInfo p.p4 {
+      margin-top: 1.5rem; }
   article .articleHeader h1 {
     background-image: url("assets/vote.png"); }
   article .articleHeader h2 {
-    font-size: 1.6rem;
-    margin: 0 auto 0 3rem;
+    font-size: 1.75rem;
     font-family: HelveticaRoman; }
 
 footer {
   position: fixed;
   top: 46.5rem;
   left: 70px;
-  height: 70px;
   width: 100%;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.08rem;
   left: 0;
   font-family: HelveticaRoman; }
 
@@ -148,31 +151,34 @@ footer {
   article {
     margin: 0 auto;
     width: 100%; }
+    article .articleHeader {
+      margin: 0;
+      display: flex; }
+      article .articleHeader h2 {
+        width: 50%;
+        font-size: 30px;
+        margin: 29px 9px auto;
+        font-size: 1.25rem; }
+      article .articleHeader article img {
+        width: 29%;
+        margin-left: 1rem; }
+    article .line {
+      display: none; }
     article .articleInfo {
-      display: none; }
-
-  .articleHeader {
-    margin: 0;
-    display: flex; }
-    .articleHeader article img {
-      height: 60px;
-      margin-top: 1rem;
-      width: 113px;
-      margin-left: 1rem; }
-    .articleHeader article h2 {
-      width: 50%;
-      font-size: 30px; }
-    .articleHeader article .line {
-      display: none; }
-
-  section {
+      display: none; } }
+section {
+  margin-top: 2.3rem;
+  width: 290px;
+  height: 532px;
+  margin-left: 1.2rem; }
+  section .container h2 {
+    font-size: 1.4rem;
     margin-top: 2.3rem;
-    width: 290px;
-    height: 532px;
-    margin-left: 1.2rem; }
-    section .container h2 {
-      font-size: 1.4rem;
-      margin-top: 2.3rem;
-      line-height: 2rem; } }
+    line-height: 2rem; }
+  section #email,
+  section #firstName,
+  section #lastName,
+  section #zip {
+    width: 4rem; }
 
 /*# sourceMappingURL=bootstrap.min.css.map */

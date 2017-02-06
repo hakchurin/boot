@@ -11,8 +11,8 @@ body {
     background-color: mediumpurple;
 }
 
-label{
-      font-size: 1.15rem;
+label {
+    font-size: 1.15rem;
 }
 
 #email,
@@ -43,7 +43,7 @@ section {
     .form2,
     .form3,
     .form4 {
-        margin-top: .9rem;
+        margin-top: 0.9rem;
     }
 
     .form1,
@@ -53,9 +53,8 @@ section {
         margin-left: 1rem;
     }
 
-    .form4{
-      margin-top: .95rem;
-
+    .form4 {
+        margin-top: 0.95rem;
     }
 
     p.info {
@@ -67,41 +66,40 @@ section {
 
     .checkYes {
         margin-top: 1rem;
-      font-family: $font-stack;
+        font-family: $font-stack;
     }
 
     .checkNo {
         margin-top: 1rem;
         font-family: $font-stack;
-
     }
 
-    .check1, .check2 {
+    .check1,
+    .check2 {
         display: flex;
     }
 
-     .yesId {
-      margin-left: 1rem;
-font-size: 1.05rem;
-margin-top: 0.2rem;
-line-height: 23px;
+    .yesId {
+        margin-left: 1rem;
+        font-size: 1.05rem;
+        margin-top: 0.2rem;
+        line-height: 23px;
     }
 
-
-    .noId{
-      margin-left: 1rem;
-font-size: 1.05rem;
-margin-top: 0rem;
-line-height: 23px;
+    .noId {
+        margin-left: 1rem;
+        font-size: 1.05rem;
+        margin-top: 0;
+        line-height: 23px;
     }
 
     .box1 {
-      border: 2px solid black;
-width: 41px;
-height: 27px;
-margin-left: 1rem;
-cursor: pointer;
-margin-top: 0.25rem;
+        border: 2px solid black;
+        width: 41px;
+        height: 27px;
+        margin-left: 1rem;
+        cursor: pointer;
+        margin-top: 0.25rem;
     }
 
     .box2 {
@@ -113,10 +111,9 @@ margin-top: 0.25rem;
         cursor: pointer;
     }
 
-
     form {
-      margin-top: 1rem;
-      margin-right: .7rem;
+        margin-top: 1rem;
+        margin-right: 0.7rem;
     }
 
     .container {
@@ -125,18 +122,18 @@ margin-top: 0.25rem;
         }
 
         button#submitBtn {
-          margin-top: 0.2rem;
-margin-left: 0.9rem;
-background-color: #b82d2d;
-border: none;
-color: #fff;
-width: 25.7rem;
-height: 2.7rem;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 1.5rem;
-cursor: pointer;
+            margin-top: 0.2rem;
+            margin-left: 0.9rem;
+            background-color: #b82d2d;
+            border: none;
+            color: #fff;
+            width: 25.7rem;
+            height: 2.7rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.5rem;
+            cursor: pointer;
         }
 
         h2 {
@@ -145,7 +142,6 @@ cursor: pointer;
             margin: 0 auto 0 1rem;
         }
     }
-
 }
 
 article {
@@ -162,19 +158,24 @@ article {
     }
 
     img {
-      height: 60%;
-        margin-top: 1rem;
-        width: 35%;
+        height: 60%;
+        margin-top: 0.8rem;
+        width: 52%;
         margin-left: 4.5rem;
-
     }
 
     .articleInfo {
         width: 80%;
         font-size: 1.19rem;
         font-family: $font-stack;
-        margin-top: 4.5rem;
+        margin-top: 1.35rem;
         line-height: 23px;
+
+        p.p2,
+        p.p3,
+        p.p4 {
+            margin-top: 1.5rem;
+        }
     }
 
     .articleHeader h1 {
@@ -182,9 +183,9 @@ article {
     }
 
     .articleHeader h2 {
-        font-size: 1.6rem;
-        margin: 0 auto 0 3rem;
-        font-family: HelveticaRoman;
+        font-size: 1.75rem;
+        // margin: auto auto auto 2.9rem;
+        font-family: $font-stack;
     }
 }
 
@@ -192,69 +193,64 @@ footer {
     position: fixed;
     top: 46.5rem;
     left: 70px;
-    height: 70px;
     width: 100%;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.08rem;
     left: 0;
     font-family: $font-stack;
-
 }
-
-
 @media screen and (max-width: 400px) {
+    body {
+        display: block;
+    }
 
-  body{
-    display: block;
-  }
-
-  article{
-    margin: 0 auto;
+    article {
+        margin: 0 auto;
         width: 100%;
 
-     .articleInfo{
-      display: none;
+        .articleHeader {
+            margin: 0;
+            display: flex;
+
+            h2 {
+                width: 50%;
+                font-size: 30px;
+                margin: 29px 9px auto;
+                font-size: 1.25rem;
+            }
+
+            article img {
+                width: 29%;
+                margin-left: 1rem;
+            }
         }
-  }
 
+         .line {
+            display: none;
+        }
 
-  .articleHeader{
-    margin: 0;
-    display: flex;
-
-    article img{
-      height: 60px;
-    margin-top: 1rem;
-    width: 113px;
-    margin-left: 1rem;
+        .articleInfo {
+            display: none;
+        }
     }
-    article h2{
-          width: 50%;
-          font-size: 30px;
-    }
-    article .line{
-      display: none;
-    }
-  }
+}
 
-
-
-
-
-  section {
+section {
     margin-top: 2.3rem;
-  width: 290px;
-  height: 532px;
-  margin-left: 1.2rem;
+    width: 290px;
+    height: 532px;
+    margin-left: 1.2rem;
 
     .container h2 {
-      font-size: 1.4rem;
-  margin-top: 2.3rem;
-  line-height: 2rem;
+        font-size: 1.4rem;
+        margin-top: 2.3rem;
+        line-height: 2rem;
     }
-  }
 
-
-
-
+    #email,
+    #firstName,
+    #lastName,
+    #zip {
+        width: 4rem;
+    }
 }
