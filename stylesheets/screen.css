@@ -4,43 +4,42 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 23, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 body {
-  background-image: url("/images/voteNevada.png");
   display: -webkit-inline-flex;
   display: inline-flex;
   display: inline-flex;
   width: 100%;
   background-color: black;
 }
-/* line 31, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 body article {
   width: 50%;
   margin-left: 13.5rem;
-  color: white;
+  color: #FFFFFF;
 }
-/* line 36, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 body article .articleHeader h2 {
   margin: 0 auto 0 2.5rem;
   font-size: 1.75rem;
   font-family: helvetica;
 }
-/* line 42, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 body article img {
   margin-top: 0.8rem;
   width: 52.5%;
   margin-left: 3.9rem;
 }
-/* line 48, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 body article .line {
-  border: 2px solid white;
+  border: 2px solid #FFFFFF;
   border-right-style: none;
   border-top-style: none;
   border-left-style: none;
   width: 24.9rem;
   margin-top: 0.6rem;
 }
-/* line 57, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 body article .articleInfo {
   width: 84%;
   font-size: 1.19rem;
@@ -48,13 +47,11 @@ body article .articleInfo {
   margin-top: 1.35rem;
   line-height: 23px;
 }
-/* line 64, ../sass/screen.scss */
-body article .articleInfo p.p2,
-body article .articleInfo p.p3,
-body article .articleInfo p.p4 {
+/* line 56, ../sass/screen.scss */
+body article .articleInfo p.p2, body article .articleInfo p.p3, body article .articleInfo p.p4 {
   margin-top: 1.5rem;
 }
-/* line 72, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 body section {
   border: 3px solid;
   width: 450px;
@@ -66,45 +63,38 @@ body section {
   -webkit-border-radius: 7px;
   border-radius: 7px;
   font-family: helvetica;
-  color: white;
+  color: #FFFFFF;
 }
-/* line 83, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 body section h2 {
   font-size: 2rem;
   line-height: 44px;
   margin: 0 auto 0 1rem;
 }
-/* line 89, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 body section form {
   margin-top: 1rem;
   margin-right: 0.7rem;
 }
-/* line 93, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 body section form label {
   font-size: 1.15rem;
 }
-/* line 97, ../sass/screen.scss */
-body section form .form2,
-body section form .form3 {
+/* line 87, ../sass/screen.scss */
+body section form .form2, body section form .form3 {
   margin-top: 0.9rem;
 }
-/* line 102, ../sass/screen.scss */
-body section form .form1,
-body section form .form2,
-body section form .form3,
-body section form .form4 {
+/* line 91, ../sass/screen.scss */
+body section form .form1, body section form .form2, body section form .form3, body section form .form4 {
   margin-left: 1rem;
-  color: white;
+  color: #FFFFFF;
 }
-/* line 110, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 body section form .form4 {
   margin-top: 0.95rem;
 }
-/* line 114, ../sass/screen.scss */
-body section form #email,
-body section form #firstName,
-body section form #lastName,
-body section form #zip {
+/* line 100, ../sass/screen.scss */
+body section form #email, body section form #firstName, body section form #lastName, body section form #zip {
   text-decoration: none;
   background-color: transparent;
   border-top: 2px solid;
@@ -114,24 +104,22 @@ body section form #zip {
   width: 12rem;
   width: 25.5rem;
   height: 2rem;
-  color: white;
+  color: #FFFFFF;
 }
-/* line 131, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 body section p.info {
   margin-top: 0.8rem;
   line-height: 1.6rem;
   margin-left: 1rem;
   font-size: 1.11rem;
 }
-/* line 138, ../sass/screen.scss */
-body section .check1,
-body section .check2 {
+/* line 121, ../sass/screen.scss */
+body section .check1, body section .check2 {
   display: flex;
 }
-/* line 142, ../sass/screen.scss */
-body section .check1 .box1,
-body section .check2 .box1 {
-  border: 2px solid white;
+/* line 124, ../sass/screen.scss */
+body section .check1 .box1, body section .check2 .box1 {
+  border: 2px solid #FFFFFF;
   width: 41px;
   height: 27px;
   margin-left: 1rem;
@@ -139,42 +127,38 @@ body section .check2 .box1 {
   margin-top: 0.7rem;
   font-size: 1.7rem;
 }
-/* line 152, ../sass/screen.scss */
-body section .check1 .yesId,
-body section .check2 .yesId {
+/* line 134, ../sass/screen.scss */
+body section .check1 .yesId, body section .check2 .yesId {
   margin-left: 1rem;
   font-size: 1.05rem;
   margin-top: 0.2rem;
   line-height: 23px;
 }
-/* line 159, ../sass/screen.scss */
-body section .check1 .box2,
-body section .check2 .box2 {
-  border: 2px solid white;
+/* line 141, ../sass/screen.scss */
+body section .check1 .box2, body section .check2 .box2 {
+  border: 2px solid #FFFFFF;
   width: 45px;
   height: 27px;
   margin-left: 1rem;
   font-size: 1.7rem;
   cursor: pointer;
 }
-/* line 169, ../sass/screen.scss */
-body section .check1 .box2 p,
-body section .check2 .box2 p {
+/* line 149, ../sass/screen.scss */
+body section .check1 .box2 p, body section .check2 .box2 p {
   display: none;
 }
-/* line 174, ../sass/screen.scss */
-body section .check1 .noId,
-body section .check2 .noId {
+/* line 154, ../sass/screen.scss */
+body section .check1 .noId, body section .check2 .noId {
   margin-left: 1rem;
   font-size: 1.05rem;
   margin-top: 0;
   line-height: 23px;
 }
-/* line 182, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 body section .bottomInfo {
   display: none;
 }
-/* line 186, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 body section button#submitBtn {
   margin-top: 0.2rem;
   margin-left: 0.9rem;
@@ -189,7 +173,7 @@ body section button#submitBtn {
   font-size: 1.5rem;
   cursor: pointer;
 }
-/* line 203, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 body footer p.fullFoot {
   position: fixed;
   top: 46.5rem;
@@ -199,47 +183,47 @@ body footer p.fullFoot {
   font-size: 1.08rem;
   left: 0;
   font-family: helvetica;
-  color: white;
+  color: #FFFFFF;
 }
-/* line 215, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 body footer p.mobileFoot {
   display: none;
 }
 
 @media screen and (max-width: 400px) {
-  /* line 221, ../sass/screen.scss */
+  /* line 201, ../sass/screen.scss */
   body {
     display: block;
   }
-  /* line 224, ../sass/screen.scss */
+  /* line 204, ../sass/screen.scss */
   body article {
     margin: 0 auto;
     width: 100%;
   }
-  /* line 228, ../sass/screen.scss */
+  /* line 208, ../sass/screen.scss */
   body article .articleHeader {
     margin: 0;
     display: flex;
   }
-  /* line 232, ../sass/screen.scss */
+  /* line 212, ../sass/screen.scss */
   body article .articleHeader h2 {
     width: 100%;
     font-size: 30px;
     margin: 29px 15px auto;
     font-size: 1.23rem;
   }
-  /* line 239, ../sass/screen.scss */
+  /* line 219, ../sass/screen.scss */
   body article .articleHeader img {
     width: 111px;
     height: 62px;
     margin-left: 1rem;
     margin-top: 0;
   }
-  /* line 247, ../sass/screen.scss */
+  /* line 227, ../sass/screen.scss */
   body article .line {
     display: none;
   }
-  /* line 251, ../sass/screen.scss */
+  /* line 231, ../sass/screen.scss */
   body article .articleInfo {
     width: 100%;
     font-size: 1.19rem;
@@ -247,19 +231,17 @@ body footer p.mobileFoot {
     margin-top: 0.5rem;
     line-height: 22px;
   }
-  /* line 259, ../sass/screen.scss */
+  /* line 239, ../sass/screen.scss */
   body article p.p1 {
     font-size: 0.9rem;
     width: 90%;
     margin: 0 auto;
   }
-  /* line 265, ../sass/screen.scss */
-  body article .p2,
-  body article .p3,
-  body article .p4 {
+  /* line 245, ../sass/screen.scss */
+  body article .p2, body article .p3, body article .p4 {
     display: none;
   }
-  /* line 272, ../sass/screen.scss */
+  /* line 250, ../sass/screen.scss */
   body section {
     margin-top: 1rem;
     width: 340px;
@@ -267,7 +249,7 @@ body footer p.mobileFoot {
     margin-left: 1.2rem;
     padding: 0;
   }
-  /* line 279, ../sass/screen.scss */
+  /* line 257, ../sass/screen.scss */
   body section h2 {
     font-size: 1.2rem;
     margin-top: 0.9rem;
@@ -276,31 +258,25 @@ body footer p.mobileFoot {
     width: 98%;
     padding: 0;
   }
-  /* line 288, ../sass/screen.scss */
+  /* line 266, ../sass/screen.scss */
   body section form {
     margin-top: 0.8rem;
     margin-left: 0.7rem;
   }
-  /* line 292, ../sass/screen.scss */
+  /* line 270, ../sass/screen.scss */
   body section form label {
     font-size: 0.8rem;
   }
-  /* line 296, ../sass/screen.scss */
-  body section form .form1,
-  body section form .form2,
-  body section form .form3,
-  body section form .form4 {
+  /* line 274, ../sass/screen.scss */
+  body section form .form1, body section form .form2, body section form .form3, body section form .form4 {
     margin-top: 1rem;
   }
-  /* line 303, ../sass/screen.scss */
-  body section form #email,
-  body section form #firstName,
-  body section form #lastName,
-  body section form #zip {
+  /* line 278, ../sass/screen.scss */
+  body section form #email, body section form #firstName, body section form #lastName, body section form #zip {
     width: 280px;
     height: 17.5px;
   }
-  /* line 312, ../sass/screen.scss */
+  /* line 284, ../sass/screen.scss */
   body section p.info {
     margin-top: 1rem;
     line-height: 1.3rem;
@@ -309,9 +285,9 @@ body footer p.mobileFoot {
     width: 87%;
     margin: 14px 27px auto;
   }
-  /* line 322, ../sass/screen.scss */
+  /* line 294, ../sass/screen.scss */
   body section .check1 .box1 {
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     width: 18px;
     height: 20px;
     margin-left: 1.75rem;
@@ -319,7 +295,7 @@ body footer p.mobileFoot {
     margin-top: 1.2rem;
     font-size: 1.7rem;
   }
-  /* line 332, ../sass/screen.scss */
+  /* line 304, ../sass/screen.scss */
   body section .check1 .yesId {
     font-size: 0.7rem;
     margin-left: 0.5rem;
@@ -327,9 +303,9 @@ body footer p.mobileFoot {
     margin-top: 0.9rem;
     width: 80%;
   }
-  /* line 342, ../sass/screen.scss */
+  /* line 314, ../sass/screen.scss */
   body section .check2 .box2 {
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     width: 26px;
     height: 20px;
     margin-left: 1.75rem;
@@ -337,36 +313,36 @@ body footer p.mobileFoot {
     margin-top: 0.2rem;
     font-size: 1.7rem;
   }
-  /* line 352, ../sass/screen.scss */
+  /* line 324, ../sass/screen.scss */
   body section .check2 .noId {
     font-size: 0.7rem;
     margin-left: 0.5rem;
     line-height: 19px;
   }
-  /* line 359, ../sass/screen.scss */
+  /* line 331, ../sass/screen.scss */
   body section .bottomInfo {
     display: flex;
     width: 100%;
   }
-  /* line 363, ../sass/screen.scss */
+  /* line 335, ../sass/screen.scss */
   body section .bottomInfo p {
     margin: 3px auto auto 27px;
     font-size: 0.8rem;
     line-height: 1.1rem;
     width: 85%;
   }
-  /* line 371, ../sass/screen.scss */
+  /* line 343, ../sass/screen.scss */
   body section button#submitBtn {
     width: 284px;
     height: 34px;
     margin: 0.97rem 0 0 1.75rem;
     font-size: 0.95rem;
   }
-  /* line 380, ../sass/screen.scss */
+  /* line 352, ../sass/screen.scss */
   body footer p.fullFoot {
     display: none;
   }
-  /* line 384, ../sass/screen.scss */
+  /* line 356, ../sass/screen.scss */
   body footer p.mobileFoot {
     display: flex;
     position: fixed;
@@ -377,6 +353,6 @@ body footer p.mobileFoot {
     font-family: helvetica;
     margin: 1.3rem auto 0 1.8rem;
     line-height: 17px;
-    color: white;
+    color: #FFFFFF;
   }
 }
