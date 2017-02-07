@@ -4,8 +4,7 @@
 body {
   background-image: url("assets/voteNevada.png");
   display: inline-flex;
-  width: 100%;
-  background-color: mediumpurple; }
+  width: 100%; }
   body article {
     width: 50%;
     margin-left: 13.5rem;
@@ -217,11 +216,12 @@ body {
         margin: 14px 27px auto; }
       body section .check1 .box1 {
         border: 2px solid #FFFFFF;
-        width: 21px;
+        width: 18px;
         height: 20px;
         margin-left: 1.75rem;
         cursor: pointer;
-        margin-top: 1rem; }
+        margin-top: 1.2rem;
+        font-size: 1.7rem; }
       body section .check1 .yesId {
         font-size: 0.7rem;
         margin-left: 0.5rem;
@@ -234,7 +234,8 @@ body {
         height: 20px;
         margin-left: 1.75rem;
         cursor: pointer;
-        margin-top: 0.2rem; }
+        margin-top: 0.2rem;
+        font-size: 1.7rem; }
       body section .check2 .noId {
         font-size: 0.7rem;
         margin-left: 0.5rem;

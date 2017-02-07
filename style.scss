@@ -1,15 +1,19 @@
+
+$primary-color: #FFFFFF;
+$font-stack: HelveticaRoman;
+
 @font-face {
     font-family: HelveticaRoman;
     src: url("assets/HelveticaRoman.ttf");
 }
-$primary-color: #FFFFFF;
-$font-stack: HelveticaRoman;
+
+
+
 
 body {
     background-image: url("assets/voteNevada.png");
     display: inline-flex;
     width: 100%;
-    background-color: mediumpurple;
 
     article {
         width: 50%;
@@ -122,9 +126,6 @@ body {
         .check2 {
             display: flex;
 
-
-
-
             .box1 {
                 border: 2px solid $primary-color;
                 width: 41px;
@@ -147,12 +148,10 @@ body {
                 height: 27px;
                 margin-left: 1rem;
 
-                p{
-                  display: none;
+                p {
+                    display: none;
                 }
             }
-
-
 
             .noId {
                 margin-left: 1rem;
@@ -304,11 +303,12 @@ body {
             .check1 {
                 .box1 {
                     border: 2px solid $primary-color;
-                    width: 21px;
+                    width: 18px;
                     height: 20px;
                     margin-left: 1.75rem;
                     cursor: pointer;
-                    margin-top: 1rem;
+                    margin-top: 1.2rem;
+                        font-size: 1.7rem;
                 }
 
                 .yesId {
@@ -328,6 +328,7 @@ body {
                     margin-left: 1.75rem;
                     cursor: pointer;
                     margin-top: 0.2rem;
+                        font-size: 1.7rem;
                 }
 
                 .noId {
