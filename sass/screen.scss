@@ -8,7 +8,7 @@ $primary-color: #FFFFFF;
 @font-face {
     font-family: 'helvetica';
     src: url('helvetica_neue_ce_55_roman-webfont.woff2') format('woff2'), url('helvetica_neue_ce_55_roman-webfont.woff') format('woff');
-    font-weight: normal;
+
     font-style: normal;
 }
 
@@ -24,11 +24,14 @@ body {
         width: 50%;
         margin-left: 13.5rem;
         color: $primary-color;
+        font-weight: 100;
+
 
         .articleHeader h2 {
             margin: 0 auto 0 2.5rem;
             font-size: 1.75rem;
             font-family: helvetica;
+            font-weight: 100;
         }
 
         img {
@@ -51,7 +54,7 @@ body {
             font-size: 1.19rem;
             font-family: helvetica;
             margin-top: 1.35rem;
-            line-height: 23px;
+            line-height: 22px;
 
             p.p2, p.p3, p.p4 {
                 margin-top: 1.5rem;
@@ -69,16 +72,20 @@ body {
         @include border-radius(7px);
         font-family: helvetica;
         color: $primary-color;
+        font-weight: 100;
+
 
         h2 {
-            font-size: 2rem;
-            line-height: 44px;
-            margin: 0 auto 0 1rem;
+          font-size: 2rem;
+          line-height: 40px;
+          margin: 0px auto 0 0.5rem;
+          font-weight: 100;
+
         }
 
         form {
             margin-top: 1rem;
-            margin-right: 0.7rem;
+            margin-right: 1rem;
 
             label {
                 font-size: 1.15rem;
@@ -112,7 +119,6 @@ body {
         }
 
         p.info {
-            margin-top: 0.8rem;
             line-height: 1.6rem;
             margin-left: 1rem;
             font-size: 1.11rem;
@@ -134,7 +140,7 @@ body {
             .yesId {
                 margin-left: 1rem;
                 font-size: 1.05rem;
-                margin-top: 0.2rem;
+                margin-top: 1rem;
                 line-height: 23px;
             }
 
