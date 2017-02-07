@@ -5,22 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
+    <title>Media Harris</title>
     <link href="bootstrap.min.css" rel="stylesheet">
 
 
-</head>
 
+</head>
 <body>
 
 
     <article>
         <div class="articleHeader">
-            <img src="assets/vote.png" alt="Paris">
-
+            <img src="assets/vote.png" alt="vote">
             <h2>VOTER REGESTRATION </h2>
         </div>
 
@@ -50,65 +46,53 @@
 
 
 
-
-
-
-
     <section>
-        <!-- <div class="container"> -->
-
         <div class="container">
             <h2> Let's get started with some basic voter information: </h2>
         </div>
 
-            <form>
-                <div class="form1">
-                    <label for="firstName">First Name:</label><br>
-                    <input type="firstName" class="form-control" id="firstName"><br>
-                </div>
+        <form>
+            <div class="form1">
+                <label for="firstName">First Name:</label><br>
+                <input type="firstName" class="form-control" id="firstName"><br>
+            </div>
+            <div class="form2">
+                <label for="lastName">Last Name:</label><br>
+                <input type="lastName" class="form-control" id="lastName"><br>
+            </div>
+            <div class="form3">
+                <label for="email"> Email:</label><br>
+                <input type="email" class="form-control" id="email"><br>
+            </div>
+            <div class="form4">
+                <label for="zip"> Zip:</label><br>
+                <input type="zip" class="form-control" id="zip">
+            </div>
+        </form>
 
-                <div class="form2">
-                    <label for="lastName">Last Name:</label><br>
-                    <input type="lastName" class="form-control" id="lastName"><br>
-                </div>
+        <p class="info"> Do you have a valid driver's license or identification card issued by Nevada DMV? </p>
 
-                <div class="form3">
-                    <label for="email"> Email:</label><br>
-                    <input type="email" class="form-control" id="email"><br>
-                </div>
+        <div class="check1">
+            <div class="box1">
+            </div>
+            <p class="yesId">I HAVE A CURRENT NV STATE IDENTIFICATION CARD OR DRIVER'S LICENSE.</p>
+        </div>
 
-                <div class="form4">
-                    <label for="zip"> Zip:</label><br>
-                    <input type="zip" class="form-control" id="zip">
-                </div>
-            </form>
-
-
-
-
-            <p class="info"> Do you have a valid driver's license or identification card issued by Nevada DMV? </p>
-
-
-            <div class="check1">
-              <div class="box1">
-              </div>
-                <p class="yesId">I HAVE A CURRENT NV STATE IDENTIFICATION CARD OR DRIVER'S LICENSE.</p>
+        <div class="check2">
+            <div class="box2">
+              <!-- <input type="checkbox" value="checked" class="box2"> -->
             </div>
 
-            <div class="check2">
-              <div class="box2">
-              </div>
             <p class="noId">I DO NOT HAVE A CURRENT NV STATE IDENTIFICATION CARD OR DRIVER'S LICENSE.</p>
-          </div>
+        </div>
 
-          <div class="bottomInfo">
+        <div class="bottomInfo">
             <p>
-            Click "Next Step" and we'll take you to the Nevada Secretary of State website to complete your voter registration application
+                Click "Next Step" and we'll take you to the Nevada Secretary of State website to complete your voter registration application
             </p>
-          </div>
+        </div>
 
-            <button type="button" id="submitBtn" class="btn">Next Step  ></button>
-        <!-- </div> -->
+        <button type="button" id="submitBtn" class="btn">Next Step  ></button>
     </section>
 
 
@@ -121,7 +105,7 @@
         </p>
 
         <p class="mobileFoot">
-          Engage Nevada ia a non-profit, non-partisan 501(c)(4) organization for civic engagement.
+            Engage Nevada ia a non-profit, non-partisan 501(c)(4) organization for civic engagement.
         </p>
     </footer>
 
@@ -129,5 +113,4 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
-
 </html>

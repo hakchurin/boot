@@ -6,270 +6,264 @@ body {
   display: inline-flex;
   width: 100%;
   background-color: mediumpurple; }
-
-article {
-  width: 50%;
-  margin-left: 13.5rem;
-  color: #FFFFFF; }
-  article .line {
-    border: 2px solid #FFFFFF;
-    border-right-style: none;
-    border-top-style: none;
-    border-left-style: none;
-    width: 24.9rem;
-    margin-top: 0.6rem; }
-  article img {
-    margin-top: 0.8rem;
-    width: 52.5%;
-    margin-left: 3.9rem; }
-  article h2 {
+  body article {
+    width: 50%;
+    margin-left: 13.5rem;
     color: #FFFFFF; }
-  article .articleInfo {
-    width: 84%;
-    font-size: 1.19rem;
+    body article .articleHeader h2 {
+      margin: 0 auto 0 2.5rem;
+      font-size: 1.75rem;
+      font-family: HelveticaRoman; }
+    body article img {
+      margin-top: 0.8rem;
+      width: 52.5%;
+      margin-left: 3.9rem; }
+    body article .line {
+      border: 2px solid #FFFFFF;
+      border-right-style: none;
+      border-top-style: none;
+      border-left-style: none;
+      width: 24.9rem;
+      margin-top: 0.6rem; }
+    body article .articleInfo {
+      width: 84%;
+      font-size: 1.19rem;
+      font-family: HelveticaRoman;
+      margin-top: 1.35rem;
+      line-height: 23px; }
+      body article .articleInfo p.p2,
+      body article .articleInfo p.p3,
+      body article .articleInfo p.p4 {
+        margin-top: 1.5rem; }
+  body section {
+    border: 3px solid;
+    width: 450px;
+    height: 646px;
+    padding: 25px;
+    margin-right: 14.6rem;
+    margin-top: 25px;
+    border-radius: 5px;
     font-family: HelveticaRoman;
-    margin-top: 1.35rem;
-    line-height: 23px; }
-    article .articleInfo p.p2,
-    article .articleInfo p.p3,
-    article .articleInfo p.p4 {
-      margin-top: 1.5rem; }
-  article .articleHeader h2 {
-    margin: 0 auto 0 2.5rem;
-    font-size: 1.75rem;
-    font-family: HelveticaRoman; }
-
-section {
-  border: 3px solid;
-  width: 450px;
-  height: 646px;
-  padding: 25px;
-  margin-right: 14.6rem;
-  margin-top: 25px;
-  border-radius: 5px;
-  font-family: HelveticaRoman;
-  color: #FFFFFF; }
-  section h2 {
-    font-size: 2rem;
-    line-height: 44px;
-    margin: 0 auto 0 1rem; }
-  section label {
-    font-size: 1.15rem; }
-  section form {
-    margin-top: 1rem;
-    margin-right: 1rem; }
-    section form .form2,
-    section form .form3 {
-      margin-top: 0.9rem; }
-    section form .form1,
-    section form .form2,
-    section form .form3,
-    section form .form4 {
+    color: #FFFFFF; }
+    body section h2 {
+      font-size: 2rem;
+      line-height: 44px;
+      margin: 0 auto 0 1rem; }
+    body section form {
+      margin-top: 1rem;
+      margin-right: 1rem; }
+      body section form label {
+        font-size: 1.15rem; }
+      body section form .form2,
+      body section form .form3 {
+        margin-top: 0.9rem; }
+      body section form .form1,
+      body section form .form2,
+      body section form .form3,
+      body section form .form4 {
+        margin-left: 1rem;
+        color: #FFFFFF; }
+      body section form .form4 {
+        margin-top: 0.95rem; }
+      body section form #email,
+      body section form #firstName,
+      body section form #lastName,
+      body section form #zip {
+        text-decoration: none;
+        background-color: transparent;
+        border-top: 2px solid;
+        border-right: 2px solid;
+        border-left: 2px solid;
+        border-bottom: 2px solid;
+        width: 12rem;
+        width: 25.5rem;
+        height: 2rem;
+        color: #FFFFFF; }
+    body section p.info {
+      margin-top: 1.8rem;
+      line-height: 1.6rem;
       margin-left: 1rem;
-      color: #FFFFFF; }
-    section form .form4 {
-      margin-top: 0.95rem; }
-    section form #email,
-    section form #firstName,
-    section form #lastName,
-    section form #zip {
-      text-decoration: none;
-      background-color: transparent;
-      border-top: 2px solid;
-      border-right: 2px solid;
-      border-left: 2px solid;
-      border-bottom: 2px solid;
-      width: 12rem;
-      width: 25.5rem;
-      height: 2rem;
-      color: #FFFFFF; }
-  section p.info {
-    margin-top: 1.8rem;
-    line-height: 1.6rem;
-    margin-left: 1rem;
-    font-size: 1.11rem; }
-  section .check1,
-  section .check2 {
-    display: flex; }
-    section .check1 .box1,
-    section .check2 .box1 {
-      border: 2px solid #FFFFFF;
-      width: 41px;
-      height: 27px;
-      margin-left: 1rem;
-      cursor: pointer;
-      margin-top: 0.25rem; }
-    section .check1 .yesId,
-    section .check2 .yesId {
-      margin-left: 1rem;
-      font-size: 1.05rem;
+      font-size: 1.11rem; }
+    body section .check1,
+    body section .check2 {
+      display: flex; }
+      body section .check1 .box1,
+      body section .check2 .box1 {
+        border: 2px solid #FFFFFF;
+        width: 41px;
+        height: 27px;
+        margin-left: 1rem;
+        cursor: pointer;
+        margin-top: 0.25rem; }
+      body section .check1 .yesId,
+      body section .check2 .yesId {
+        margin-left: 1rem;
+        font-size: 1.05rem;
+        margin-top: 0.2rem;
+        line-height: 23px; }
+      body section .check1 .box2,
+      body section .check2 .box2 {
+        border: 2px solid #FFFFFF;
+        width: 45px;
+        height: 27px;
+        margin-left: 1rem; }
+        body section .check1 .box2 p,
+        body section .check2 .box2 p {
+          display: none; }
+      body section .check1 .noId,
+      body section .check2 .noId {
+        margin-left: 1rem;
+        font-size: 1.05rem;
+        margin-top: 0;
+        line-height: 23px; }
+    body section .bottomInfo {
+      display: none; }
+    body section button#submitBtn {
       margin-top: 0.2rem;
-      line-height: 23px; }
-    section .check1 .box2,
-    section .check2 .box2 {
-      border: 2px solid #FFFFFF;
-      width: 45px;
-      height: 27px;
-      margin-left: 1rem;
+      margin-left: 0.9rem;
+      background-color: #b82d2d;
+      border: none;
+      color: #fff;
+      width: 25.7rem;
+      height: 2.7rem;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.5rem;
       cursor: pointer; }
-    section .check1 .noId,
-    section .check2 .noId {
-      margin-left: 1rem;
-      font-size: 1.05rem;
-      margin-top: 0;
-      line-height: 23px; }
-  section .bottomInfo {
-    display: none; }
-  section button#submitBtn {
-    margin-top: 0.2rem;
-    margin-left: 0.9rem;
-    background-color: #b82d2d;
-    border: none;
-    color: #fff;
-    width: 25.7rem;
-    height: 2.7rem;
+  body footer p.fullFoot {
+    position: fixed;
+    top: 46.5rem;
+    left: 70px;
+    width: 100%;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.5rem;
-    cursor: pointer; }
-
-footer p.fullFoot {
-  position: fixed;
-  top: 46.5rem;
-  left: 70px;
-  width: 100%;
-  text-align: center;
-  font-size: 1.08rem;
-  left: 0;
-  font-family: HelveticaRoman;
-  color: #FFFFFF; }
-footer p.mobileFoot {
-  display: none; }
+    font-size: 1.08rem;
+    left: 0;
+    font-family: HelveticaRoman;
+    color: #FFFFFF; }
+  body footer p.mobileFoot {
+    display: none; }
 
 @media screen and (max-width: 400px) {
   body {
     display: block; }
-
-  article {
-    margin: 0 auto;
-    width: 100%; }
-    article .articleHeader {
-      margin: 0;
-      display: flex; }
-      article .articleHeader img {
-        width: 111px;
-        height: 62px;
-        margin-left: 1rem;
-        margin-top: 0; }
-      article .articleHeader h2 {
-        width: 100%;
-        font-size: 30px;
-        margin: 29px 15px auto;
-        font-size: 1.23rem; }
-    article .line {
-      display: none; }
-    article .articleInfo {
-      width: 100%;
-      font-size: 1.19rem;
-      font-family: HelveticaRoman;
-      margin-top: 0.5rem;
-      line-height: 22px; }
-    article p.p1 {
-      font-size: 0.9rem;
-      width: 90%;
-      margin: 0 auto; }
-    article .p2,
-    article .p3,
-    article .p4 {
-      display: none; }
-
-  section {
-    margin-top: 1rem;
-    width: 340px;
-    height: 582px;
-    margin-left: 1.2rem;
-    padding: 0; }
-    section h2 {
-      font-size: 1.2rem;
-      margin-top: 0.9rem;
-      line-height: 1.8rem;
-      margin-left: 1.7rem;
-      width: 98%;
-      padding: 0; }
-    section label {
-      font-size: 0.8rem; }
-    section form {
-      margin-top: 0.8rem;
-      margin-left: 0.7rem; }
-      section form #email,
-      section form #firstName,
-      section form #lastName,
-      section form #zip {
-        width: 280px;
-        height: 17.5px; }
-      section form .form1,
-      section form .form2,
-      section form .form3,
-      section form .form4 {
-        margin-top: 1rem; }
-    section p.info {
-      margin-top: 1rem;
-      line-height: 1.3rem;
-      margin-left: 1rem;
-      font-size: 0.74rem;
-      width: 87%;
-      margin: 14px 27px auto; }
-    section .check1 .box1 {
-      border: 2px solid #FFFFFF;
-      width: 21px;
-      height: 20px;
-      margin-left: 1.75rem;
-      cursor: pointer;
-      margin-top: 1rem; }
-    section .check1 .yesId {
-      font-size: 0.7rem;
-      margin-left: 0.5rem;
-      line-height: 19px;
-      margin-top: 0.9rem;
-      width: 80%; }
-    section .check2 .box2 {
-      border: 2px solid #FFFFFF;
-      width: 26px;
-      height: 20px;
-      margin-left: 1.75rem;
-      cursor: pointer;
-      margin-top: 0.2rem; }
-    section .check2 .noId {
-      font-size: 0.7rem;
-      margin-left: 0.5rem;
-      line-height: 19px; }
-    section .bottomInfo {
-      display: flex;
+    body article {
+      margin: 0 auto;
       width: 100%; }
-      section .bottomInfo p {
-        margin: 3px auto auto 27px;
-        font-size: 0.8rem;
-        line-height: 1.1rem;
-        width: 85%; }
-    section button#submitBtn {
-      width: 284px;
-      height: 34px;
-      margin: 0.97rem 0 0 1.75rem;
-      font-size: 0.95rem; }
-
-  footer p.fullFoot {
-    display: none; }
-  footer p.mobileFoot {
-    display: flex;
-    position: fixed;
-    left: 70px;
-    width: 100%;
-    font-size: 0.85rem;
-    left: 0;
-    font-family: HelveticaRoman;
-    margin: 1.3rem auto 0 1.8rem;
-    line-height: 17px;
-    color: #FFFFFF; } }
+      body article .articleHeader {
+        margin: 0;
+        display: flex; }
+        body article .articleHeader h2 {
+          width: 100%;
+          font-size: 30px;
+          margin: 29px 15px auto;
+          font-size: 1.23rem; }
+        body article .articleHeader img {
+          width: 111px;
+          height: 62px;
+          margin-left: 1rem;
+          margin-top: 0; }
+      body article .line {
+        display: none; }
+      body article .articleInfo {
+        width: 100%;
+        font-size: 1.19rem;
+        font-family: HelveticaRoman;
+        margin-top: 0.5rem;
+        line-height: 22px; }
+      body article p.p1 {
+        font-size: 0.9rem;
+        width: 90%;
+        margin: 0 auto; }
+      body article .p2,
+      body article .p3,
+      body article .p4 {
+        display: none; }
+    body section {
+      margin-top: 1rem;
+      width: 340px;
+      height: 582px;
+      margin-left: 1.2rem;
+      padding: 0; }
+      body section h2 {
+        font-size: 1.2rem;
+        margin-top: 0.9rem;
+        line-height: 1.8rem;
+        margin-left: 1.7rem;
+        width: 98%;
+        padding: 0; }
+      body section form {
+        margin-top: 0.8rem;
+        margin-left: 0.7rem; }
+        body section form label {
+          font-size: 0.8rem; }
+        body section form .form1,
+        body section form .form2,
+        body section form .form3,
+        body section form .form4 {
+          margin-top: 1rem; }
+        body section form #email,
+        body section form #firstName,
+        body section form #lastName,
+        body section form #zip {
+          width: 280px;
+          height: 17.5px; }
+      body section p.info {
+        margin-top: 1rem;
+        line-height: 1.3rem;
+        margin-left: 1rem;
+        font-size: 0.74rem;
+        width: 87%;
+        margin: 14px 27px auto; }
+      body section .check1 .box1 {
+        border: 2px solid #FFFFFF;
+        width: 21px;
+        height: 20px;
+        margin-left: 1.75rem;
+        cursor: pointer;
+        margin-top: 1rem; }
+      body section .check1 .yesId {
+        font-size: 0.7rem;
+        margin-left: 0.5rem;
+        line-height: 19px;
+        margin-top: 0.9rem;
+        width: 80%; }
+      body section .check2 .box2 {
+        border: 2px solid #FFFFFF;
+        width: 26px;
+        height: 20px;
+        margin-left: 1.75rem;
+        cursor: pointer;
+        margin-top: 0.2rem; }
+      body section .check2 .noId {
+        font-size: 0.7rem;
+        margin-left: 0.5rem;
+        line-height: 19px; }
+      body section .bottomInfo {
+        display: flex;
+        width: 100%; }
+        body section .bottomInfo p {
+          margin: 3px auto auto 27px;
+          font-size: 0.8rem;
+          line-height: 1.1rem;
+          width: 85%; }
+      body section button#submitBtn {
+        width: 284px;
+        height: 34px;
+        margin: 0.97rem 0 0 1.75rem;
+        font-size: 0.95rem; }
+    body footer p.fullFoot {
+      display: none; }
+    body footer p.mobileFoot {
+      display: flex;
+      position: fixed;
+      left: 70px;
+      width: 100%;
+      font-size: 0.85rem;
+      left: 0;
+      font-family: HelveticaRoman;
+      margin: 1.3rem auto 0 1.8rem;
+      line-height: 17px;
+      color: #FFFFFF; } }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
