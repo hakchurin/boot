@@ -1,0 +1,440 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: HelveticaRoman;
+  src: url("/assets/HelveticaRoman.ttf");
+}
+/* line 25, ../sass/print.scss */
+body {
+  background-image: url-image("assets/voteNevada.png");
+  display: inline-flex;
+  width: 100%;
+}
+/* line 33, ../sass/print.scss */
+body article {
+  width: 50%;
+  margin-left: 13.5rem;
+  color: #FFFFFF;
+}
+/* line 38, ../sass/print.scss */
+body article .articleHeader h2 {
+  margin: 0 auto 0 2.5rem;
+  font-size: 1.75rem;
+  font-family: url('/fonts/../assets/HelveticaRoman.ttf');
+}
+/* line 45, ../sass/print.scss */
+body article img {
+  margin-top: 0.8rem;
+  width: 52.5%;
+  margin-left: 3.9rem;
+}
+/* line 51, ../sass/print.scss */
+body article .line {
+  border: 2px solid #FFFFFF;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-style: none;
+  width: 24.9rem;
+  margin-top: 0.6rem;
+}
+/* line 60, ../sass/print.scss */
+body article .articleInfo {
+  width: 84%;
+  font-size: 1.19rem;
+  font-family: HelveticaRoman;
+  margin-top: 1.35rem;
+  line-height: 23px;
+}
+/* line 67, ../sass/print.scss */
+body article .articleInfo p.p2,
+body article .articleInfo p.p3,
+body article .articleInfo p.p4 {
+  margin-top: 1.5rem;
+}
+/* line 75, ../sass/print.scss */
+body section {
+  border: 3px solid;
+  width: 450px;
+  height: 646px;
+  padding: 25px;
+  margin-right: 14.6rem;
+  margin-top: 25px;
+  border-radius: 5px;
+  font-family: HelveticaRoman;
+  color: #FFFFFF;
+}
+/* line 86, ../sass/print.scss */
+body section h2 {
+  font-size: 2rem;
+  line-height: 44px;
+  margin: 0 auto 0 1rem;
+}
+/* line 92, ../sass/print.scss */
+body section form {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+/* line 96, ../sass/print.scss */
+body section form label {
+  font-size: 1.15rem;
+}
+/* line 100, ../sass/print.scss */
+body section form .form2,
+body section form .form3 {
+  margin-top: 0.9rem;
+}
+/* line 105, ../sass/print.scss */
+body section form .form1,
+body section form .form2,
+body section form .form3,
+body section form .form4 {
+  margin-left: 1rem;
+  color: #FFFFFF;
+}
+/* line 113, ../sass/print.scss */
+body section form .form4 {
+  margin-top: 0.95rem;
+}
+/* line 117, ../sass/print.scss */
+body section form #email,
+body section form #firstName,
+body section form #lastName,
+body section form #zip {
+  text-decoration: none;
+  background-color: transparent;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  width: 12rem;
+  width: 25.5rem;
+  height: 2rem;
+  color: #FFFFFF;
+}
+/* line 134, ../sass/print.scss */
+body section p.info {
+  margin-top: 1.8rem;
+  line-height: 1.6rem;
+  margin-left: 1rem;
+  font-size: 1.11rem;
+}
+/* line 141, ../sass/print.scss */
+body section .check1,
+body section .check2 {
+  display: flex;
+}
+/* line 145, ../sass/print.scss */
+body section .check1 .box1,
+body section .check2 .box1 {
+  border: 2px solid #FFFFFF;
+  width: 41px;
+  height: 27px;
+  margin-left: 1rem;
+  cursor: pointer;
+  margin-top: 0.25rem;
+}
+/* line 154, ../sass/print.scss */
+body section .check1 .yesId,
+body section .check2 .yesId {
+  margin-left: 1rem;
+  font-size: 1.05rem;
+  margin-top: 0.2rem;
+  line-height: 23px;
+}
+/* line 161, ../sass/print.scss */
+body section .check1 .box2,
+body section .check2 .box2 {
+  border: 2px solid #FFFFFF;
+  width: 45px;
+  height: 27px;
+  margin-left: 1rem;
+}
+/* line 167, ../sass/print.scss */
+body section .check1 .box2 p,
+body section .check2 .box2 p {
+  display: none;
+}
+/* line 172, ../sass/print.scss */
+body section .check1 .noId,
+body section .check2 .noId {
+  margin-left: 1rem;
+  font-size: 1.05rem;
+  margin-top: 0;
+  line-height: 23px;
+}
+/* line 180, ../sass/print.scss */
+body section .bottomInfo {
+  display: none;
+}
+/* line 184, ../sass/print.scss */
+body section button#submitBtn {
+  margin-top: 0.2rem;
+  margin-left: 0.9rem;
+  background-color: #b82d2d;
+  border: none;
+  color: #fff;
+  width: 25.7rem;
+  height: 2.7rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+/* line 201, ../sass/print.scss */
+body footer p.fullFoot {
+  position: fixed;
+  top: 46.5rem;
+  left: 70px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.08rem;
+  left: 0;
+  font-family: HelveticaRoman;
+  color: #FFFFFF;
+}
+/* line 213, ../sass/print.scss */
+body footer p.mobileFoot {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  /* line 219, ../sass/print.scss */
+  body {
+    display: block;
+  }
+  /* line 222, ../sass/print.scss */
+  body article {
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* line 226, ../sass/print.scss */
+  body article .articleHeader {
+    margin: 0;
+    display: flex;
+  }
+  /* line 230, ../sass/print.scss */
+  body article .articleHeader h2 {
+    width: 100%;
+    font-size: 30px;
+    margin: 29px 15px auto;
+    font-size: 1.23rem;
+  }
+  /* line 237, ../sass/print.scss */
+  body article .articleHeader img {
+    width: 111px;
+    height: 62px;
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+  /* line 245, ../sass/print.scss */
+  body article .line {
+    display: none;
+  }
+  /* line 249, ../sass/print.scss */
+  body article .articleInfo {
+    width: 100%;
+    font-size: 1.19rem;
+    font-family: HelveticaRoman;
+    margin-top: 0.5rem;
+    line-height: 22px;
+  }
+  /* line 257, ../sass/print.scss */
+  body article p.p1 {
+    font-size: 0.9rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* line 263, ../sass/print.scss */
+  body article .p2,
+  body article .p3,
+  body article .p4 {
+    display: none;
+  }
+  /* line 270, ../sass/print.scss */
+  body section {
+    margin-top: 1rem;
+    width: 340px;
+    height: 582px;
+    margin-left: 1.2rem;
+    padding: 0;
+  }
+  /* line 277, ../sass/print.scss */
+  body section h2 {
+    font-size: 1.2rem;
+    margin-top: 0.9rem;
+    line-height: 1.8rem;
+    margin-left: 1.7rem;
+    width: 98%;
+    padding: 0;
+  }
+  /* line 286, ../sass/print.scss */
+  body section form {
+    margin-top: 0.8rem;
+    margin-left: 0.7rem;
+  }
+  /* line 290, ../sass/print.scss */
+  body section form label {
+    font-size: 0.8rem;
+  }
+  /* line 294, ../sass/print.scss */
+  body section form .form1,
+  body section form .form2,
+  body section form .form3,
+  body section form .form4 {
+    margin-top: 1rem;
+  }
+  /* line 301, ../sass/print.scss */
+  body section form #email,
+  body section form #firstName,
+  body section form #lastName,
+  body section form #zip {
+    width: 280px;
+    height: 17.5px;
+  }
+  /* line 310, ../sass/print.scss */
+  body section p.info {
+    margin-top: 1rem;
+    line-height: 1.3rem;
+    margin-left: 1rem;
+    font-size: 0.74rem;
+    width: 87%;
+    margin: 14px 27px auto;
+  }
+  /* line 320, ../sass/print.scss */
+  body section .check1 .box1 {
+    border: 2px solid #FFFFFF;
+    width: 18px;
+    height: 20px;
+    margin-left: 1.75rem;
+    cursor: pointer;
+    margin-top: 1.2rem;
+    font-size: 1.7rem;
+  }
+  /* line 330, ../sass/print.scss */
+  body section .check1 .yesId {
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+    line-height: 19px;
+    margin-top: 0.9rem;
+    width: 80%;
+  }
+  /* line 340, ../sass/print.scss */
+  body section .check2 .box2 {
+    border: 2px solid #FFFFFF;
+    width: 26px;
+    height: 20px;
+    margin-left: 1.75rem;
+    cursor: pointer;
+    margin-top: 0.2rem;
+    font-size: 1.7rem;
+  }
+  /* line 350, ../sass/print.scss */
+  body section .check2 .noId {
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+    line-height: 19px;
+  }
+  /* line 357, ../sass/print.scss */
+  body section .bottomInfo {
+    display: flex;
+    width: 100%;
+  }
+  /* line 361, ../sass/print.scss */
+  body section .bottomInfo p {
+    margin: 3px auto auto 27px;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    width: 85%;
+  }
+  /* line 369, ../sass/print.scss */
+  body section button#submitBtn {
+    width: 284px;
+    height: 34px;
+    margin: 0.97rem 0 0 1.75rem;
+    font-size: 0.95rem;
+  }
+  /* line 378, ../sass/print.scss */
+  body footer p.fullFoot {
+    display: none;
+  }
+  /* line 382, ../sass/print.scss */
+  body footer p.mobileFoot {
+    display: flex;
+    position: fixed;
+    left: 70px;
+    width: 100%;
+    font-size: 0.85rem;
+    left: 0;
+    font-family: HelveticaRoman;
+    margin: 1.3rem auto 0 1.8rem;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+}

@@ -1,0 +1,397 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+
+ @import "compass/reset";
+ // @import "assets/images/*.png";
+
+
+ $primary-color: #FFFFFF;
+ $font-stack: HelveticaRoman;
+
+ @font-face {
+     font-family: HelveticaRoman;
+     src: url("/assets/HelveticaRoman.ttf");
+ }
+// $header-img: image_url('../assets/voteNevada.png');
+
+ // $header-img: image-url('../assets/voteNevada.png');
+
+
+
+
+
+ body {
+  //  background-image: $header-img;
+   background-image: url-image("assets/voteNevada.png") ;
+
+    //  background-image: url("./assets/voteNevada.png");
+     display: inline-flex;
+     width: 100%;
+
+     article {
+         width: 50%;
+         margin-left: 13.5rem;
+         color: $primary-color;
+
+         .articleHeader h2 {
+             margin: 0 auto 0 2.5rem;
+             font-size: 1.75rem;
+            //  font-family: $font-stack;
+             font-family:font-url('../assets/HelveticaRoman.ttf');
+         }
+
+         img {
+             margin-top: 0.8rem;
+             width: 52.5%;
+             margin-left: 3.9rem;
+         }
+
+         .line {
+             border: 2px solid $primary-color;
+             border-right-style: none;
+             border-top-style: none;
+             border-left-style: none;
+             width: 24.9rem;
+             margin-top: 0.6rem;
+         }
+
+         .articleInfo {
+             width: 84%;
+             font-size: 1.19rem;
+             font-family: $font-stack;
+             margin-top: 1.35rem;
+             line-height: 23px;
+
+             p.p2,
+             p.p3,
+             p.p4 {
+                 margin-top: 1.5rem;
+             }
+         }
+     }
+
+     section {
+         border: 3px solid;
+         width: 450px;
+         height: 646px;
+         padding: 25px;
+         margin-right: 14.6rem;
+         margin-top: 25px;
+         border-radius: 5px;
+         font-family: $font-stack;
+         color: $primary-color;
+
+         h2 {
+             font-size: 2rem;
+             line-height: 44px;
+             margin: 0 auto 0 1rem;
+         }
+
+         form {
+             margin-top: 1rem;
+             margin-right: 1rem;
+
+             label {
+                 font-size: 1.15rem;
+             }
+
+             .form2,
+             .form3 {
+                 margin-top: 0.9rem;
+             }
+
+             .form1,
+             .form2,
+             .form3,
+             .form4 {
+                 margin-left: 1rem;
+                 color: $primary-color;
+             }
+
+             .form4 {
+                 margin-top: 0.95rem;
+             }
+
+             #email,
+             #firstName,
+             #lastName,
+             #zip {
+                 text-decoration: none;
+                 background-color: transparent;
+                 border-top: 2px solid;
+                 border-right: 2px solid;
+                 border-left: 2px solid;
+                 border-bottom: 2px solid;
+                 width: 12rem;
+                 width: 25.5rem;
+                 height: 2rem;
+                 color: $primary-color;
+             }
+         }
+
+         p.info {
+             margin-top: 1.8rem;
+             line-height: 1.6rem;
+             margin-left: 1rem;
+             font-size: 1.11rem;
+         }
+
+         .check1,
+         .check2 {
+             display: flex;
+
+             .box1 {
+                 border: 2px solid $primary-color;
+                 width: 41px;
+                 height: 27px;
+                 margin-left: 1rem;
+                 cursor: pointer;
+                 margin-top: 0.25rem;
+             }
+
+             .yesId {
+                 margin-left: 1rem;
+                 font-size: 1.05rem;
+                 margin-top: 0.2rem;
+                 line-height: 23px;
+             }
+
+             .box2 {
+                 border: 2px solid $primary-color;
+                 width: 45px;
+                 height: 27px;
+                 margin-left: 1rem;
+
+                 p {
+                     display: none;
+                 }
+             }
+
+             .noId {
+                 margin-left: 1rem;
+                 font-size: 1.05rem;
+                 margin-top: 0;
+                 line-height: 23px;
+             }
+         }
+
+         .bottomInfo {
+             display: none;
+         }
+
+         button#submitBtn {
+             margin-top: 0.2rem;
+             margin-left: 0.9rem;
+             background-color: #b82d2d;
+             border: none;
+             color: #fff;
+             width: 25.7rem;
+             height: 2.7rem;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 1.5rem;
+             cursor: pointer;
+         }
+     }
+
+     footer {
+         p.fullFoot {
+             position: fixed;
+             top: 46.5rem;
+             left: 70px;
+             width: 100%;
+             text-align: center;
+             font-size: 1.08rem;
+             left: 0;
+             font-family: $font-stack;
+             color: $primary-color;
+         }
+
+         p.mobileFoot {
+             display: none;
+         }
+     }
+ }
+ @media screen and (max-width: 400px) {
+     body {
+         display: block;
+
+         article {
+             margin: 0 auto;
+             width: 100%;
+
+             .articleHeader {
+                 margin: 0;
+                 display: flex;
+
+                 h2 {
+                     width: 100%;
+                     font-size: 30px;
+                     margin: 29px 15px auto;
+                     font-size: 1.23rem;
+                 }
+
+                 img {
+                     width: 111px;
+                     height: 62px;
+                     margin-left: 1rem;
+                     margin-top: 0;
+                 }
+             }
+
+             .line {
+                 display: none;
+             }
+
+             .articleInfo {
+                 width: 100%;
+                 font-size: 1.19rem;
+                 font-family: $font-stack;
+                 margin-top: 0.5rem;
+                 line-height: 22px;
+             }
+
+             p.p1 {
+                 font-size: 0.9rem;
+                 width: 90%;
+                 margin: 0 auto;
+             }
+
+             .p2,
+             .p3,
+             .p4 {
+                 display: none;
+             }
+         }
+
+         section {
+             margin-top: 1rem;
+             width: 340px;
+             height: 582px;
+             margin-left: 1.2rem;
+             padding: 0;
+
+             h2 {
+                 font-size: 1.2rem;
+                 margin-top: 0.9rem;
+                 line-height: 1.8rem;
+                 margin-left: 1.7rem;
+                 width: 98%;
+                 padding: 0;
+             }
+
+             form {
+                 margin-top: 0.8rem;
+                 margin-left: 0.7rem;
+
+                 label {
+                     font-size: 0.8rem;
+                 }
+
+                 .form1,
+                 .form2,
+                 .form3,
+                 .form4 {
+                     margin-top: 1rem;
+                 }
+
+                 #email,
+                 #firstName,
+                 #lastName,
+                 #zip {
+                     width: 280px;
+                     height: 17.5px;
+                 }
+             }
+
+             p.info {
+                 margin-top: 1rem;
+                 line-height: 1.3rem;
+                 margin-left: 1rem;
+                 font-size: 0.74rem;
+                 width: 87%;
+                 margin: 14px 27px auto;
+             }
+
+             .check1 {
+                 .box1 {
+                     border: 2px solid $primary-color;
+                     width: 18px;
+                     height: 20px;
+                     margin-left: 1.75rem;
+                     cursor: pointer;
+                     margin-top: 1.2rem;
+                         font-size: 1.7rem;
+                 }
+
+                 .yesId {
+                     font-size: 0.7rem;
+                     margin-left: 0.5rem;
+                     line-height: 19px;
+                     margin-top: 0.9rem;
+                     width: 80%;
+                 }
+             }
+
+             .check2 {
+                 .box2 {
+                     border: 2px solid $primary-color;
+                     width: 26px;
+                     height: 20px;
+                     margin-left: 1.75rem;
+                     cursor: pointer;
+                     margin-top: 0.2rem;
+                         font-size: 1.7rem;
+                 }
+
+                 .noId {
+                     font-size: 0.7rem;
+                     margin-left: 0.5rem;
+                     line-height: 19px;
+                 }
+             }
+
+             .bottomInfo {
+                 display: flex;
+                 width: 100%;
+
+                 p {
+                     margin: 3px auto auto 27px;
+                     font-size: 0.8rem;
+                     line-height: 1.1rem;
+                     width: 85%;
+                 }
+             }
+
+             button#submitBtn {
+                 width: 284px;
+                 height: 34px;
+                 margin: 0.97rem 0 0 1.75rem;
+                 font-size: 0.95rem;
+             }
+         }
+
+         footer {
+             p.fullFoot {
+                 display: none;
+             }
+
+             p.mobileFoot {
+                 display: flex;
+                 position: fixed;
+                 left: 70px;
+                 width: 100%;
+                 font-size: 0.85rem;
+                 left: 0;
+                 font-family: $font-stack;
+                 margin: 1.3rem auto 0 1.8rem;
+                 line-height: 17px;
+                 color: $primary-color;
+             }
+         }
+     }
+ }
+ //end ^^^
