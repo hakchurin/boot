@@ -128,15 +128,16 @@ body section .check1 .box1, body section .check2 .box1 {
   cursor: pointer;
   margin-top: 0.7rem;
   font-size: 1.7rem;
+  text-align: center;
 }
-/* line 140, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 body section .check1 .yesId, body section .check2 .yesId {
   margin-left: 1rem;
   font-size: 1.05rem;
   margin-top: 1rem;
   line-height: 23px;
 }
-/* line 147, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 body section .check1 .box2, body section .check2 .box2 {
   border: 2px solid #FFFFFF;
   width: 45px;
@@ -144,23 +145,24 @@ body section .check1 .box2, body section .check2 .box2 {
   margin-left: 1rem;
   font-size: 1.7rem;
   cursor: pointer;
+  text-align: center;
 }
-/* line 155, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 body section .check1 .box2 p, body section .check2 .box2 p {
   display: none;
 }
-/* line 160, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 body section .check1 .noId, body section .check2 .noId {
   margin-left: 1rem;
   font-size: 1.05rem;
   margin-top: 0;
   line-height: 23px;
 }
-/* line 168, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 body section .bottomInfo {
   display: none;
 }
-/* line 172, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 body section button#submitBtn {
   margin-top: 0.2rem;
   margin-left: 0.9rem;
@@ -175,7 +177,7 @@ body section button#submitBtn {
   font-size: 1.5rem;
   cursor: pointer;
 }
-/* line 189, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 body footer p.fullFoot {
   position: fixed;
   top: 46.5rem;
@@ -187,45 +189,45 @@ body footer p.fullFoot {
   font-family: helvetica;
   color: #FFFFFF;
 }
-/* line 201, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 body footer p.mobileFoot {
   display: none;
 }
 
 @media screen and (max-width: 400px) {
-  /* line 207, ../sass/screen.scss */
+  /* line 209, ../sass/screen.scss */
   body {
     display: block;
   }
-  /* line 210, ../sass/screen.scss */
+  /* line 212, ../sass/screen.scss */
   body article {
     margin: 0 auto;
     width: 100%;
   }
-  /* line 214, ../sass/screen.scss */
+  /* line 216, ../sass/screen.scss */
   body article .articleHeader {
     margin: 0;
     display: flex;
   }
-  /* line 218, ../sass/screen.scss */
+  /* line 220, ../sass/screen.scss */
   body article .articleHeader h2 {
     width: 100%;
     font-size: 30px;
     margin: 29px 15px auto;
     font-size: 1.23rem;
   }
-  /* line 225, ../sass/screen.scss */
+  /* line 227, ../sass/screen.scss */
   body article .articleHeader img {
     width: 111px;
     height: 62px;
     margin-left: 1rem;
     margin-top: 0;
   }
-  /* line 233, ../sass/screen.scss */
+  /* line 235, ../sass/screen.scss */
   body article .line {
     display: none;
   }
-  /* line 237, ../sass/screen.scss */
+  /* line 239, ../sass/screen.scss */
   body article .articleInfo {
     width: 100%;
     font-size: 1.19rem;
@@ -233,17 +235,17 @@ body footer p.mobileFoot {
     margin-top: 0.5rem;
     line-height: 22px;
   }
-  /* line 245, ../sass/screen.scss */
+  /* line 247, ../sass/screen.scss */
   body article p.p1 {
     font-size: 0.9rem;
     width: 90%;
     margin: 0 auto;
   }
-  /* line 251, ../sass/screen.scss */
+  /* line 253, ../sass/screen.scss */
   body article .p2, body article .p3, body article .p4 {
     display: none;
   }
-  /* line 256, ../sass/screen.scss */
+  /* line 258, ../sass/screen.scss */
   body section {
     margin-top: 1rem;
     width: 340px;
@@ -251,7 +253,7 @@ body footer p.mobileFoot {
     margin-left: 1.2rem;
     padding: 0;
   }
-  /* line 263, ../sass/screen.scss */
+  /* line 265, ../sass/screen.scss */
   body section h2 {
     font-size: 1.2rem;
     margin-top: 0.9rem;
@@ -260,25 +262,25 @@ body footer p.mobileFoot {
     width: 98%;
     padding: 0;
   }
-  /* line 272, ../sass/screen.scss */
+  /* line 274, ../sass/screen.scss */
   body section form {
     margin-top: 0.8rem;
     margin-left: 0.7rem;
   }
-  /* line 276, ../sass/screen.scss */
+  /* line 278, ../sass/screen.scss */
   body section form label {
     font-size: 0.8rem;
   }
-  /* line 280, ../sass/screen.scss */
+  /* line 282, ../sass/screen.scss */
   body section form .form1, body section form .form2, body section form .form3, body section form .form4 {
     margin-top: 1rem;
   }
-  /* line 284, ../sass/screen.scss */
+  /* line 286, ../sass/screen.scss */
   body section form #email, body section form #firstName, body section form #lastName, body section form #zip {
     width: 280px;
     height: 17.5px;
   }
-  /* line 290, ../sass/screen.scss */
+  /* line 292, ../sass/screen.scss */
   body section p.info {
     margin-top: 1rem;
     line-height: 1.3rem;
@@ -287,7 +289,7 @@ body footer p.mobileFoot {
     width: 87%;
     margin: 14px 27px auto;
   }
-  /* line 300, ../sass/screen.scss */
+  /* line 302, ../sass/screen.scss */
   body section .check1 .box1 {
     border: 2px solid #FFFFFF;
     width: 18px;
@@ -295,9 +297,10 @@ body footer p.mobileFoot {
     margin-left: 1.75rem;
     cursor: pointer;
     margin-top: 1.2rem;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
-  /* line 310, ../sass/screen.scss */
+  /* line 313, ../sass/screen.scss */
   body section .check1 .yesId {
     font-size: 0.7rem;
     margin-left: 0.5rem;
@@ -305,7 +308,7 @@ body footer p.mobileFoot {
     margin-top: 0.9rem;
     width: 80%;
   }
-  /* line 320, ../sass/screen.scss */
+  /* line 323, ../sass/screen.scss */
   body section .check2 .box2 {
     border: 2px solid #FFFFFF;
     width: 26px;
@@ -313,38 +316,39 @@ body footer p.mobileFoot {
     margin-left: 1.75rem;
     cursor: pointer;
     margin-top: 0.2rem;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
-  /* line 330, ../sass/screen.scss */
+  /* line 334, ../sass/screen.scss */
   body section .check2 .noId {
     font-size: 0.7rem;
     margin-left: 0.5rem;
     line-height: 19px;
   }
-  /* line 337, ../sass/screen.scss */
+  /* line 341, ../sass/screen.scss */
   body section .bottomInfo {
     display: flex;
     width: 100%;
   }
-  /* line 341, ../sass/screen.scss */
+  /* line 345, ../sass/screen.scss */
   body section .bottomInfo p {
     margin: 3px auto auto 27px;
     font-size: 0.8rem;
     line-height: 1.1rem;
     width: 85%;
   }
-  /* line 349, ../sass/screen.scss */
+  /* line 353, ../sass/screen.scss */
   body section button#submitBtn {
     width: 284px;
     height: 34px;
     margin: 0.97rem 0 0 1.75rem;
     font-size: 0.95rem;
   }
-  /* line 358, ../sass/screen.scss */
+  /* line 362, ../sass/screen.scss */
   body footer p.fullFoot {
     display: none;
   }
-  /* line 362, ../sass/screen.scss */
+  /* line 366, ../sass/screen.scss */
   body footer p.mobileFoot {
     display: flex;
     position: fixed;
